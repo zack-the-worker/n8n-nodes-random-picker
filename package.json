@@ -1,19 +1,23 @@
 {
-  "name": "n8n-nodes-<...>",
-  "version": "0.1.0",
-  "description": "",
+  "name": "n8n-nodes-random-picker",
+  "version": "1.2.1",
+  "description": "n8n community node for randomly selecting items from arrays",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "n8n",
+    "random",
+    "picker",
+    "shuffle"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/zack-the-worker/n8n-nodes-random-picker",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "zack-the-worker",
+    "email": "anonymous@example.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/zack-the-worker/n8n-nodes-random-picker.git"
   },
   "engines": {
     "node": ">=18.10",
@@ -35,13 +39,8 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
-    ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/RandomPicker/RandomPicker.node.js"
     ]
   },
   "devDependencies": {
